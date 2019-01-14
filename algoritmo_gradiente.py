@@ -1,14 +1,26 @@
+###es una tecnica de optimisacion y busca los criticos( puntos minumos y maximos)
+##se puede optimisar una funcion mientras sea deribable
 import math as ma
-import numpy as np ##ayuda a trabajar con matrises
+import numpy as np ##ayuda a trabajar con matrises , algebra lineal
 import sklearn as sk ##tiene un montón de datoset y modelos de machien learning 
-import scipy as sc #expande lo que hace numpy
+import scipy as sc #expande lo que hace numpy y da funciones cientificas
 from matplotlib import pyplot as plt
 from random import randint, uniform,random
 
-x=np.random.rand(20)# Generamos un vector de valores aleatorios
-y=np.random.rand(20)
+
+#x=np.random.rand(20)# Generamos un vector de valores aleatorios
+#y=np.random.rand(20)
+#use np.linspace(-2,2,100) por que me genera 100 valores aleatorios dentro de esoso parametros
+res=100 #tamano de las listas 
+
+x=np.linspace(-2,2,res)
+y=np.linspace(-2,2,res)
+fc=
+
+
+
 plt.figure()
-plt.scatter(x,y)
+plt.scatter(x,y,)
 plt.show()
 print("vector x", x)
 print("vector y",y)
@@ -18,9 +30,9 @@ O_1=np.random.rand(1)
 print("iniciales  O_0",  O_0)
 print("iniciales  O_1",  O_1)
 def gradiente_le(O_0,O_1,m,x,y):
-	o_1 = 1
-	o_0 = 1
-	while o_1!=0 and o_0!=0:
+	o= 
+	
+	for _ in range(res)
 		a=0.4	
 		for i in range(0,m):
 			o_0= O_0- a*(1/(i+1))*(O_0+O_1*(x[i]) -y[i])
