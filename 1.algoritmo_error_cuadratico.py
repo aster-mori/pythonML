@@ -6,6 +6,9 @@ x=np.linspace(-4,4,100)
 y=np.linspace(-4,4,100)
 plt.scatter(x,y)
 
+
+
+
 z=np.zeros(100)
 rep=0
 O=np.zeros(2)
